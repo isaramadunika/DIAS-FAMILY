@@ -1,22 +1,51 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Product</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUhoCWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    </head>
-    <body>
+<html lang="en">
+<head>
+    <style>
+        .custom-border{
+            border-width: 3px;
+            border-color: green;
+            border-style: solid;
+            border-radius: 1.875rem 0;
+        }
+        .custom-font{
+            font-family: 'Foco', sans-serif;
+            font-size: 2rem;
+            text-align: left;
+            color: #151515;
+            opacity: 1;
+            line-height: 1; 
+        }
+        .product-image {
+            max-width: 100%;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Viewing Page</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        
+    </style>
+</head>
+<body>
+    <div class="container pt-6">
         <div class="row">
-            <div class="col-md-2"></div>
-            <div class="col-md-8">
-                <div class="col-md-4">
-                    <img src="..." class="rounded mx-auto d-block" alt="...">
-                </div>
-                <div class="col-md-4"></div>
+            <!-- Item Image Column -->
+            <div class="col-md-1"></div>
+            <div class="col-md-5 ">
+                <img src="images/Pic99367.jpg" class="product-image shadow-lg img-fluid custom-border" alt="Item Image">
+            </div>
+            <!-- Item Details Column -->
+            <div class="col-md-5">
+                <h2>Item Name</h2>
+                <p><strong>Price:</strong> $XX.XX</p>
+                <button class="btn btn-primary">Add to Cart</button>
             </div>
         </div>
-    </body>
+    </div>
+
+</body>
 </html>
