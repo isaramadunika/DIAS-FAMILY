@@ -1,16 +1,11 @@
+body{
+    font-family: 'Avenir';
+}
 .custom-border{
     border-width: 3px;
     border-color: purple;
     border-style: solid;
     border-radius: 1.875rem 0;
-}
-.custom-font{
-    font-family: 'Foco', sans-serif;
-    font-size: 2rem;
-    text-align: left;
-    color: #151515;
-    opacity: 1;
-    line-height: 1; 
 }
 .product-image {
     max-width: 100%;
